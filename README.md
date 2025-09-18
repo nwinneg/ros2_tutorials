@@ -12,6 +12,6 @@ That is all for now -- more to come (and hopefully a more interesting project in
 For lightweight testing / understanding of these packages, docker desktop offers a simple solution.
 - To create a disposable container running docker: docker run -it --rm osrf/ros:humble-desktop bash
 - To connect a new container in a new terminal window to the same network: docker run -it --rm --network host osrf/ros:humble-desktop bash
-  -it: makes the terminal interactive
-  --rm: removes the container upon exiting to keep host system clean
+  - -it: makes the terminal interactive
+  - --rm: removes the container upon exiting to keep host system clean
 - This repository can then be cloned from created containers temporarily
